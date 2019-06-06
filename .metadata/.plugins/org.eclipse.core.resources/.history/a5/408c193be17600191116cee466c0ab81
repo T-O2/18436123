@@ -1,0 +1,37 @@
+package com.chatserver.controller;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class YychatDbUtil {
+	public static final String mySqlDriver="com.mysql.jdbc.Driver";
+	String url="jdbc:mysql://127.0.0.1:3306/yychat?useUnicode=true&characterEncoding=UTF-8";
+	String dbuser="root";
+	String dbpass="";	
+	
+	
+	//1、加载驱动程序
+	public void loadDriver(){
+		Class.forName();
+	}
+	
+	
+	//2、建立连接,默认GBK
+	//String url="jdbc:mysql://127.0.0.1:3306/yychat";
+				
+	Connection conn=DriverManager.getConnection(url,dbuser,dbpass);
+	
+	//3、建立一个preparedStatement，标准的SQL语言
+	String user_Login_Sql="select * from user where username=? and password=?";
+	PreparedStatement ptmt=conn.prepareStatement(user_Login_Sql);
+	ptmt.setString(1, userName);
+	ptmt.setString(2, passWord);
+	
+	//4、执行preparedStatement
+	ResultSet rs=ptmt.executeQuery();
+	
+	//5、判断结果集
+	boolean loginSuccess=rs.next();			
+}

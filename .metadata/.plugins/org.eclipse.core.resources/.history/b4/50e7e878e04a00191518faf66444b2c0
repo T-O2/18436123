@@ -1,0 +1,12 @@
+package com.chatserver.controller;
+
+import java.io.ObjectInputStream;
+import java.net.Socket;
+
+public class ServerReceiverThread extends Thread{
+	
+	public ServerReceiverThread(Socket s){
+		ObjectInputStream ois=new ObjectInputStream(s.getInputStream());
+		
+	}
+}

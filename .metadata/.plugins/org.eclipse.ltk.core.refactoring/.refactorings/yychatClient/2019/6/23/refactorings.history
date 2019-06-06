@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public void updateFriendIcon(String friendString)&apos; from &apos;com.yychat.view.FriendList.FriendList()&apos; to &apos;com.yychat.view.FriendList&apos;&#x0D;&#x0A;- Original project: &apos;yychatClient&apos;&#x0D;&#x0A;- Method name: &apos;updateFriendIcon&apos;&#x0D;&#x0A;- Destination type: &apos;com.yychat.view.FriendList&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;updateFriendIcon&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.yychat.view{FriendList.java" name="updateFriendIcon" replace="false" selection="1982 505" stamp="1559720536841" version="1.0" visibility="1"/>
+</session>

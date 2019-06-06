@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<<<<<<< HEAD
+<libraryInfo home="D:\" version="1.8.0_131">
+<bootpath>
+<entry path="D:\jre\lib\resources.jar"/>
+<entry path="D:\jre\lib\rt.jar"/>
+<entry path="D:\jre\lib\sunrsasign.jar"/>
+<entry path="D:\jre\lib\jsse.jar"/>
+<entry path="D:\jre\lib\jce.jar"/>
+<entry path="D:\jre\lib\charsets.jar"/>
+<entry path="D:\jre\lib\jfr.jar"/>
+<entry path="D:\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+=======
+>>>>>>> 十五周作作业
+<libraryInfo home="C:\Program Files\Java\jre1.8.0_40" version="1.8.0_40">
+<bootpath>
+<entry path="C:\Program Files\Java\jre1.8.0_40\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_40\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_40\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_40\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_40\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_40\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_40\lib\jfr.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_40\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_40\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_40\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<<<<<<< HEAD
+<libraryInfo home="C:\Program Files\Java\jre1.8.0_60" version="1.8.0_60">
+<bootpath>
+<entry path="C:\Program Files\Java\jre1.8.0_60\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_60\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_60\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_60\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_60\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_60\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_60\lib\jfr.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_60\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_60\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_60\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+=======
+>>>>>>> 十五周作作业
+</libraryInfos>

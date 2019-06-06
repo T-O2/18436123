@@ -1,0 +1,8 @@
+package com.chatserver.controller;
+
+public class ServerReceiverThread extends Thread{
+	
+	public ServerReceiverThread(Socket s){
+		
+	}
+}
